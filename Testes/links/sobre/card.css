@@ -1,0 +1,39 @@
+
+body {
+  background-color:rgb(35, 35, 97) ;
+  margin: 0;
+  height: 100vh; /* altura total da tela */
+  display: flex;
+  justify-content: center; /* centraliza horizontal */
+  align-items: center;     /* centraliza vertical */
+}
+.card {
+  text-align: left;
+  background: black;
+  width: 400px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  
+  display: flex;           /* ativa flex */
+  align-items: center;     /* alinha verticalmente */
+  gap: 20px;               /* espaço entre ícone e info */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 60px;
+  color: white;
+  padding-right: 20px;
+  border-right: 2px solid white; /* linha vertical */
+}
+
+
+.info 
+{
+  text-align: left;
+  color: white;
+}
